@@ -1,0 +1,9 @@
+- Create new environment:
+conda create -p venv python==3.8 -y
+- Create new git repository and follow the instructions in github to link it to the folder
+- .gitignore file (Python type)
+- git pull (.gitignore will be visible in local)
+- setup.py and requirements.txt (add -e . in the end)
+- fill setup.py
+- create src and __init__.py
+- pip install -r requirements.txt (egg-info folder gets created)
